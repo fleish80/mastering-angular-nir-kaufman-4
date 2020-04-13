@@ -3,12 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DeckDirective } from './cards/deck/deck.directive';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DeckDirective
   ],
   imports: [
+    CommonModule, 
     BrowserModule,
     AppRoutingModule
   ],

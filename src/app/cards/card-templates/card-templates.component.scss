@@ -1,0 +1,27 @@
+.card {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.card-header {
+    font-size: 30px;
+}
+
+.card-title {
+    font-size: 25px;
+}
+
+.card-text {
+    font-size: 20px;
+    &.text-small {
+        font-size: 15px;
+    }
+}
+
